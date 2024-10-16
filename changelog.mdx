@@ -6,7 +6,7 @@ description: "New features, improvements, and fixes every few days"
 
 # October 13 to October 16, 2024
 
-1. **Custom Speech to Text Models**: You can now integrate custom speech to text models other than Gladia, Deepgram, or Talkscriber.
+1. **Custom Speech-to-Text Models with `CustomVoice`**: You can now integrate custom STT models other than Gladia, Deepgram, or Talkscriber. Specify your provider through `Assistant.voice[provider="custom-voice"]'` and your server url through `Assistant.voice[provider="custom-voice"].server[url="YOUR API REQUEST URL"]'`, which is available in *Assistant.voice*, *AssistantOverrides.voice*, *CreateAssistantDTO.voice*, and *UpdateAssistantDTO.voice* request bodies. 
 
 2. **Apply Coupons to Subscriptions**: You can now apply coupons by specifying a `couponId` to add to a subscription.
 
